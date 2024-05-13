@@ -4,7 +4,7 @@ paginate: true
 size: 4:3
 # theme: uncover
 math: mathjax
-backgroundImage: url("https://cdn1.mre.red/public_assets/bg.webp")
+backgroundImage: url("../public_assets/bg.webp")
 style: |
   h1{
     color: #1188FF;
@@ -35,7 +35,7 @@ style: |
 
 <!-- _paginate: false -->
 
-![bg](https://cdn1.mre.red/public_assets/begin.webp)
+![bg](../public_assets/begin.webp)
 
 <br>
 <br>
@@ -53,19 +53,19 @@ style: |
 
 ### 三相异步电动机 $\mathbf{T}$ 型等效电路图
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center"><img src="https://cdn1.mre.red/interview/assets/三相交流电机.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相异步电动机的 T 型等效电路图"></p>
+<p style="text-align: center"><img src="./assets/三相交流电机.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相异步电动机的 T 型等效电路图"></p>
 
 ## 上节回顾
 
 ### 转子旋转时异步电动机的平衡方程
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 
@@ -83,7 +83,7 @@ $$
 
 ---
 
-![bg](https://cdn1.mre.red/public_assets/contents.webp)
+![bg](../public_assets/contents.webp)
 
 1. 异步电动机启动的条件
 2. 启动电流和启动转矩
@@ -100,11 +100,11 @@ $$
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/01.webp)
+![bg](../public_assets/01.webp)
 
 ---
 
-![bg right:70%](https://cdn1.mre.red/interview/assets/实物图.webp)
+![bg right:70%](./assets/实物图.webp)
 
 三相异步
 电动机
@@ -115,7 +115,7 @@ $\mathrm{Y}-\pmb{\triangle}$
 
 ---
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 ### 异步电动机启动的条件
 
@@ -136,7 +136,7 @@ $\mathrm{Y}-\pmb{\triangle}$
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/02.webp)
+![bg](../public_assets/02.webp)
 
 ---
 
@@ -145,7 +145,7 @@ $\mathrm{Y}-\pmb{\triangle}$
 * $n = 0$
 * $s = 1$
 
-![bg left:55% w:550px](https://cdn1.mre.red/interview/assets/三相交流电机.drawio.svg)
+![bg left:55% w:550px](./assets/三相交流电机.drawio.svg)
 
 ---
 
@@ -158,19 +158,19 @@ $\mathrm{Y}-\pmb{\triangle}$
 简化等效电路
 忽略励磁支路
 
-![bg left:55% w:550px](https://cdn1.mre.red/interview/assets/三相交流电机启动.drawio.svg)
+![bg left:55% w:550px](./assets/三相交流电机启动.drawio.svg)
 
 ---
 
 ### 启动电流（相电流）
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center"><img src="https://cdn1.mre.red/interview/assets/三相交流电机启动.drawio.svg" width="70%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center"><img src="./assets/三相交流电机启动.drawio.svg" width="70%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 $$
 I_{\mathrm{s}} = \frac{U_1}{Z_{\mathrm{k}}} = \frac{U_1}{\sqrt{\left(R_1 + R'_2 \right)^{2} + \left(X_1 + X'_2 \right)^{2}}} \qquad (2)
@@ -180,7 +180,7 @@ $$
 
 ### 启动电流
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -204,7 +204,7 @@ $$
 
 ### 启动转矩
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -237,13 +237,13 @@ $$
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/03.webp)
+![bg](../public_assets/03.webp)
 
 ---
 
 ### 异步电动机直接启动
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -259,7 +259,7 @@ $$
 
 ### 降低启动电流的方法
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 异步电动机直接启动时启动电流 $I_{\mathrm{s}}^{*}$ 是额定电流的 $4 \sim 7$ 倍。
 
@@ -274,7 +274,7 @@ $$
 
 ### 降低启动电流的方法
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 为了避免启动电流 $I_{\mathrm{s}}^{*}$ 过大，根据
 
@@ -288,7 +288,7 @@ $$
 
 ### 降低启动电流的方法
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -315,13 +315,13 @@ $$
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/04.webp)
+![bg](../public_assets/04.webp)
 
 ---
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动的条件
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 运行时定子绕组接成 $\pmb{\triangle}$ 形，且三相绕组首尾六个端点全部引出来的三相异步电动机才能采用 $\mathrm{Y}-\pmb{\triangle}$ 起动。
 
@@ -329,12 +329,12 @@ $$
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动接线图
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 
-<p style="text-align: center"><img src="https://cdn1.mre.red/interview/assets/异步电动机星三角启动接线图.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center"><img src="./assets/异步电动机星三角启动接线图.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 ---
 
@@ -342,13 +342,13 @@ $$
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动等效电路
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center"><img src="https://cdn1.mre.red/interview/assets/等效电路.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center"><img src="./assets/等效电路.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 （a）$\mathrm{Y}$ 接法等效电路 $\quad$ （b）$\pmb{\triangle}$ 接法等效电路
 
@@ -356,13 +356,13 @@ $$
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动等效电路
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center"><img src="https://cdn1.mre.red/interview/assets/等效电路.drawio.svg" width="55%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center"><img src="./assets/等效电路.drawio.svg" width="55%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 由上图可以得到
 
@@ -377,7 +377,7 @@ $$
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动线电流的关系
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -403,7 +403,7 @@ $$
 
 ### $\mathrm{Y}-\pmb{\triangle}$ 启动转矩的关系
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
@@ -435,7 +435,7 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/05.webp)
+![bg](../public_assets/05.webp)
 
 ---
 
@@ -443,13 +443,13 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
 
 ### 主电路
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center; margin-left: 160px;"><img src="https://cdn1.mre.red/interview/assets/电机.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center; margin-left: 160px;"><img src="./assets/电机.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 （a）$\mathrm{Y}$ 接法等效电路 $\quad$ （b）$\pmb{\triangle}$ 接法等效电路
 
@@ -459,13 +459,13 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
 
 ### 电机控制
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center; margin-left: 100px;"><img src="https://cdn1.mre.red/interview/assets/电机控制.drawio.svg" width="90%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center; margin-left: 100px;"><img src="./assets/电机控制.drawio.svg" width="90%" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 （a）主电路 $\quad$ （b）控制电路
 
@@ -475,13 +475,13 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
 
 ### 启动状态1
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center; margin-left: 100px;"><img src="https://cdn1.mre.red/interview/assets/电机控制1.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center; margin-left: 100px;"><img src="./assets/电机控制1.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 ---
 
@@ -489,13 +489,13 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
 
 ### 启动状态2
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center; margin-left: 100px;"><img src="https://cdn1.mre.red/interview/assets/电机控制2.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center; margin-left: 100px;"><img src="./assets/电机控制2.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 ---
 
@@ -503,13 +503,13 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
 
 ### 启动状态3
 
-![bg](https://cdn1.mre.red/public_assets/bg_title.webp)
+![bg](../public_assets/bg_title.webp)
 
 <br>
 <br>
 <br>
 
-<p style="text-align: center; margin-left: 100px;"><img src="https://cdn1.mre.red/interview/assets/电机控制3.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
+<p style="text-align: center; margin-left: 100px;"><img src="./assets/电机控制3.drawio.svg" width="auto" height="auto" style="display: inline-block" alt="三相交流电机启动"></p>
 
 # 感谢聆听
 
@@ -520,4 +520,4 @@ $\mathrm{Y}$ 接法时的 **线电流** $I_{\mathrm{st}}$ 与 **转矩** $T_{\ma
   }
 </style>
 
-![bg](https://cdn1.mre.red/public_assets/end.webp)
+![bg](../public_assets/end.webp)
